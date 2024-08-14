@@ -11,7 +11,7 @@ class Txtx < Formula
     uses_from_macos "llvm" => :build # for libclang
   
     def install
-      system "cargo", "install", "--locked", "--force",
+      system "cargo", "install", "--force",
                                   *std_cargo_args(path: "components/txtx-cli")
     end
   
