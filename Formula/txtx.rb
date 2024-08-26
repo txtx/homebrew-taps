@@ -18,7 +18,7 @@ class Txtx < Formula
 
     on_linux do
         if Hardware::CPU.intel?
-            url "https://github.com/txtx/txtx/releases/download/v0.1.1/txtx-linux-x64-glibc.tar.gz"
+            url "https://github.com/txtx/txtx/releases/download/v0.1.1/txtx-linux-x64.tar.gz"
             # sha for linux_x64
             sha256 "0af64828fd4c3b7d75a0926425508ca32dadba9b3b06321d1c6525a8218e167e"
         # elsif Hardware::CPU.arm?
