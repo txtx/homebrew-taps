@@ -6,23 +6,23 @@ class Txtx < Formula
 
     on_macos do
         if Hardware::CPU.intel?            
-            url "https://github.com/txtx/txtx/releases/download/v0.1.9/txtx-darwin-x64.tar.gz"
+            url "https://github.com/txtx/txtx/releases/download/v0.1.10/txtx-darwin-x64.tar.gz"
             # sha for macos_x64
-            sha256 "74dade4e573e7a2682cc0d1395ed10de0372b3121cfc050e588ddc6fbf3a9abd"
+            sha256 "519bcba59575fd5383264001b66c47c1f33a748b5b4d8cdd96dcf55ab0dfebb4"
         elsif Hardware::CPU.arm?
-            url "https://github.com/txtx/txtx/releases/download/v0.1.9/txtx-darwin-arm64.tar.gz"
+            url "https://github.com/txtx/txtx/releases/download/v0.1.10/txtx-darwin-arm64.tar.gz"
             # sha for macos_arm64
-            sha256 "a3bd9cb61db33e44b265c20ca45329cb1db797db0649f0f0ab3a09be3956df97"
+            sha256 "dad8ef424b5fffacc0245a839d24aa123d15d1d3d983e31e045779d31de1f0c7"
         end
     end
 
     on_linux do
         if Hardware::CPU.intel?
-            url "https://github.com/txtx/txtx/releases/download/v0.1.9/txtx-linux-x64.tar.gz"
+            url "https://github.com/txtx/txtx/releases/download/v0.1.10/txtx-linux-x64.tar.gz"
             # sha for linux_x64
-            sha256 "dc7a8d10e0f04f709f14b55da301fd4bf7743af0a7dfb4ddb3e95383ba261f73"
+            sha256 "98279944749635caa85ed5a8a7e445d59e7eaa43563db94bfe90829b78c32fa9"
         # elsif Hardware::CPU.arm?
-        #     url "https://github.com/txtx/txtx/releases/download/v0.1.9/txtx-linux-arm64.tar.gz"
+        #     url "https://github.com/txtx/txtx/releases/download/v0.1.10/txtx-linux-arm64.tar.gz"
         #     # sha for linux_arm64
         #     sha256 "SHA256_OF_LINUX_ARM64_BINARY"
         end
