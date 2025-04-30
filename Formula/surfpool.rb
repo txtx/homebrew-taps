@@ -6,23 +6,23 @@ class Surfpool < Formula
 
     on_macos do
         if Hardware::CPU.intel?            
-            url "https://github.com/txtx/surfpool/releases/download/v0.1.14/surfpool-darwin-x64.tar.gz"
+            url "https://github.com/txtx/surfpool/releases/download/v0.1.15/surfpool-darwin-x64.tar.gz"
             # sha for macos_x64
             sha256 ""
         elsif Hardware::CPU.arm?
-            url "https://github.com/txtx/surfpool/releases/download/v0.1.14/surfpool-darwin-arm64.tar.gz"
+            url "https://github.com/txtx/surfpool/releases/download/v0.1.15/surfpool-darwin-arm64.tar.gz"
             # sha for macos_arm64
-            sha256 "c505c60a79e27212f6142bec70520ee1f932c299a587f862ec25523dcbba8d9e"
+            sha256 "58ba1b22e82949fc7b27d7dedac0d96a4cf79128d8c7df8482a38bd91a565ff6"
         end
     end
 
     on_linux do
         if Hardware::CPU.intel?
-            url "https://github.com/txtx/surfpool/releases/download/v0.1.14/surfpool-linux-x64.tar.gz"
+            url "https://github.com/txtx/surfpool/releases/download/v0.1.15/surfpool-linux-x64.tar.gz"
             # sha for linux_x64
-            sha256 "07efcaa00b872836d58e55f03f4b4113df952dd23e76859098b43f5ef0f55287"
+            sha256 "5ca214188366cddb8a2735ffe62f1dced5b2c9256277b3f186d06eb1291d6f99"
         # elsif Hardware::CPU.arm?
-        #     url "https://github.com/txtx/surfpool/releases/download/v0.1.14/surfpool-linux-arm64.tar.gz"
+        #     url "https://github.com/txtx/surfpool/releases/download/v0.1.15/surfpool-linux-arm64.tar.gz"
         #     # sha for linux_arm64
         #     sha256 "SHA256_OF_LINUX_ARM64_BINARY"
         end
